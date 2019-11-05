@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MZLaunchBar">
+      <UniqueIdentifier>{b47d8747-373a-4e78-a5d4-377847e80cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShellContextMenu">
+      <UniqueIdentifier>{6ac7b400-2c40-46a1-9b3b-0153c267ff12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LaunchPropDlg">
+      <UniqueIdentifier>{59ff548c-3b94-4a50-a5d5-f45eecc70202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LaunchPropDlg\FileEditCtrl">
+      <UniqueIdentifier>{ae7770f6-aee3-461b-a689-b40d74171347}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\MZLaunchBarDemo.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MZLaunchBarDemo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MZLaunchBarDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MZLaunchBarDemoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellContextMenu\ShellContextMenu.h">
+      <Filter>ShellContextMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizeDlg\LaunchPropDlg.h">
+      <Filter>LaunchPropDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizeDlg\FileEditCtrl\FileEditCtrl.h">
+      <Filter>LaunchPropDlg\FileEditCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizeDlg\LaunchPropDlgResource.h">
+      <Filter>LaunchPropDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MZLaunchBar.h">
+      <Filter>MZLaunchBar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MZLaunchBarDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MZLaunchBarDemoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellContextMenu\ShellContextMenu.cpp">
+      <Filter>ShellContextMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomizeDlg\LaunchPropDlg.cpp">
+      <Filter>LaunchPropDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomizeDlg\FileEditCtrl\FileEditCtrl.cpp">
+      <Filter>LaunchPropDlg\FileEditCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MZLaunchBar.cpp">
+      <Filter>MZLaunchBar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MZLaunchBarDemo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="CustomizeDlg\LaunchPropDlg.rc">
+      <Filter>LaunchPropDlg</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
