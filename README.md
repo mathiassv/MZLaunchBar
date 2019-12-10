@@ -1,5 +1,5 @@
 # MZLaunchBar
-MFC/C++ Controller what shows a Launchbar from where other applications can be started
+MFC/C++ UI Controller what shows a LaunchBar from where other applications can be started
 
 ![Alt text](Doc/MZLaunchBar1.png?raw=true "Image from DemoApp")
 
